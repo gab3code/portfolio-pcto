@@ -53,18 +53,6 @@ site/
 - **Barra di accessibilità** (pagina di Educazione civica): ingrandimento/riduzione del testo
   e **lettura ad alta voce** della pagina tramite la sintesi vocale del browser.
 
-## Pubblicazione su GitHub Pages
-
-1. Caricare **il contenuto della cartella `site/`** nella radice del repository
-   (i file `.html` devono stare al primo livello, non dentro una sottocartella).
-2. In *Settings → Pages*, impostare la sorgente sul branch desiderato (es. `main`) e cartella `/ (root)`.
-3. Il file `.nojekyll` è già incluso: impedisce a Jekyll di interferire con i file del sito.
-4. La home (`index.html`) viene servita automaticamente come pagina iniziale.
-
-> I riferimenti a Bootstrap, alle icone e ai Google Fonts usano CDN pubblici: il sito
-> necessita di una connessione a Internet per visualizzarsi con tutti gli stili.
-> Le immagini e i video sono invece locali (cartella `img/`).
-
 ## Manutenzione
 
 - I colori, gli spazi e i caratteri sono definiti come **variabili CSS** all'inizio di
